@@ -447,3 +447,123 @@ input:focus::placeholder {
 #step-3 .bottom {
     padding-top:30px;
 }
+
+#total-hypha-to-buy {
+    color:var(--white);
+    font-size:22px;
+}
+
+#step-4 #selected-method {
+    color:var(--white);
+}
+
+#step-4 h2 {
+    margin-bottom:20px;
+    margin-top:10px;
+}
+
+#step-4 .top {
+    padding-bottom:25px;
+}
+
+#step-4 .bottom {
+    padding-top:25px;
+}
+
+.btc-bill-card,
+.eos-bill-card {
+    background:var(--card-dark-blu);
+    border-radius: 12px;
+    margin: 0;
+    padding: 18px;
+    text-align: left;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: 100%;
+    color:var(--light-blu);
+    font-size:14px;
+
+}
+
+.btc-address-title div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hypha-btc-address {
+    font-weight: 600;
+    color:var(--white);
+}
+
+.copy {
+    background: url('../img/icons/copy-icon.svg');
+    background-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 20px;
+    margin-left: 20px;
+    position: relative;
+    width: 24px;
+}
+
+.btc-amount-space {
+    border-top: 1px solid var(--lb-transp);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    padding-top: 10px;
+}
+
+#total-btc-to-send {
+    color:var(--white);
+    font-weight:600;
+    margin-left:10px;
+}
+
+
+.address-title, .eos-amount-space, .memo-space {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eos-amount-space, .memo-space {
+    border-top: 1px solid var(--lb-transp);
+    margin-top: 14px;
+    padding-top: 10px;
+}
+
+#hypha-eos-address,
+#hypha-eos-memo,
+#total-eos-to-send,
+#total-eos-to-send {
+    color:var(--white);
+    margin-left:10px;
+}
+
+.btc-bottom {
+    text-align: left;
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+    align-items: center;
+}
+
+.btc-bottom #btc-qr-code {
+    width:160px;
+    min-width: 160px;
+}
+
+.btc-bottom .text-small {
+    margin-top:10px;
+}
+
+
+.btc-bottom #btc-qr-code img {
+    width:100%;
+}
+
+.eos-bottom {
+    margin-top:20px;
+}
