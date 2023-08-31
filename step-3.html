@@ -27,44 +27,39 @@
         <section class="multistep">
             <div class="area">
                 <div id="buyhypha-wizard">
-                    <div id="step-2">
+                    <div id="step-3">
                         <div class="generic-card glow-back has-link">
                             <div class="wrappo">
                                 <div class="step-nav">
                                     <div class="stp done"></div>
+                                    <div class="stp done"></div>
                                     <div class="stp active">
-                                        <p>2</p>
+                                        <p>3</p>
                                     </div>
-                                    <div class="stp"></div>
                                     <div class="stp"></div>
                                 </div>
                                 <div id="account-image">
                                     <img src="img/avatars/avatar.jpg" />
                                 </div>
                                 <div class="top">
-                                    <p class="text-small white">Hi <span id="account-name">luigicarlini</span>! Welcome to the:</p>
-                                    <h2 class="titles white">Hypha TokenSale</h2>
-                                    <p class="subtitle">Hypha token price is <span id="hypha-value-usd">1.06</span> USD</p>
+                                    <div class="cont-count">
+                                        <img src="img/tokens/hypha-icon.png" />
+                                        <p id="hypha-available" class="white big-amount">627,569.39</p>
+                                    </div>
+                                    <p class="text-small white">Remaining Hypha tokens available</p>
                                 </div>
                                 <div class="bottom">
-                                    <p class="text-big white">Payment Method</p>
-                                    <p class="text-small">Select how you would like to buy Hypha token</p>
-                                    <div id="payment-options">
-                                        <div class="token-select" id="choose-EOS">
-                                            <img src="img/tokens/eos.png">
-                                            <div>
-                                                <p class="white bold">EOS</p>
-                                                <p class="grey text-small">EOS</p>
-                                            </div>
-                                        </div>
-                                        <div class="token-select selected" id="choose-BTC">
-                                            <img src="img/tokens/btc.png">
-                                            <div>
-                                                <p class="white bold">Bitcoin</p>
-                                                <p class="grey text-small">BTC</p>
-                                            </div>
+                                    <p class="text-big white">Choose Amount</p>
+                                    <p class="text-small">Type in the amount of Hypha token you would like to buy.
+                                        The value of BTC and USD will dynamically be updated.</p>
+                                    <div class="input-amount">
+                                        <input id="hypha-amount-to-buy" placeholder="1,000.00">
+                                        <div id="converter">
+                                            <div class="conv-cript"><b><span id="selected-method">BTC</span></b> <span id="conversion-cripto"> 0.82557104</span></div>
+                                            <div class="conv-usd"><b>USD</b> <span id="conversion-usd"> 22,484.72</span></div>
                                         </div>
                                     </div>
+
                                     <div class="steps-action">
                                         <button class="button secondary" id="button-previous">Back</button>
                                         <button class="button primary" id="button-next">Next</button>
