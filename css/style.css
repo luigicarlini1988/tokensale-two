@@ -515,8 +515,8 @@ input:focus::placeholder {
     border-top: 1px solid var(--lb-transp);
     display: flex;
     justify-content: space-between;
-    margin-top: 14px;
-    padding-top: 10px;
+    margin-top: 12px;
+    padding-top: 12px;
 }
 
 #total-btc-to-send {
@@ -570,4 +570,54 @@ input:focus::placeholder {
 
 .eos-bottom {
     margin-top:20px;
+}
+
+.explainer {
+   position:absolute;
+   text-align:center;
+   font-size:12px;
+   font-style: italic;
+   width:100%;
+   bottom:-50px;
+}
+
+@media screen and (max-width : 500px) {
+    .generic-card {
+        width:100%;
+    }
+
+    .button {
+        width:calc(50% - 10px);
+    }
+
+    .generic-card .bottom {
+        padding:20px;
+    }
+
+    .generic-card .top {
+        padding:0px 20px 20px 20px;
+    }
+
+    .titles {
+        font-size:36px;
+    }
+
+    #step-2 .top, #step-3 .top {
+        padding-bottom:20px;
+    }
+
+    .btc-bottom {
+        text-align:center;
+    }
+
+    .btc-bottom .white.bold,
+    .btc-bottom #btc-qr-code  {
+        display:none;
+    }
+
+    #hypha-btc-address {
+        font-size:11px;
+    }
+
+    
 }
