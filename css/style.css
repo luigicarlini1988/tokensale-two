@@ -420,6 +420,9 @@ input:focus::placeholder {
     opacity:1;
 }
 
+.input-amount input:focus-visible::placeholder,
+.input-amount input:focus::placeholder
+
 .input-amount::after {
     background-image: url('../img/tokens/hypha-icon.png');
     background-size: 26px;
