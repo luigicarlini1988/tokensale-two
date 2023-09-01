@@ -37,43 +37,33 @@
                                     <div class="stp active">
                                         <p>4</p>
                                     </div>
+                                    <div class="stp"></div>
                                 </div>
                                 <div id="account-image">
                                     <img src="img/avatars/avatar.jpg" />
                                 </div>
                                 <div class="top">
-                                    <h2 class="titles white">Finalise Purchase</h2>
-                                    <p class="text-small light-blu">To buy <span id="total-hypha-to-buy">12.00 </span>Hypha Tokens</p>
-                                    <p class="text-small light-blu">transfer the exact amount of <span id="selected-method"> BTC</span> to:</p>
+                                    <div class="cont-count">
+                                        <img src="img/tokens/hypha-icon.png" />
+                                        <p id="hypha-available" class="white big-amount">627,569.39</p>
+                                    </div>
+                                    <p class="text-small white">Remaining Hypha tokens available</p>
                                 </div>
                                 <div class="bottom">
-                                    <div id="btc-bill-card" class="btc-bill-card">
-                                        <div class="btc-address-title">
-                                            <div>BTC Address: <div class="copy"></div>
-                                            </div><span id="hypha-btc-address">1CCPwLnXythGsAe7dH2epKHh6yxFK7XFXk</span>
-                                        </div>
-                                        <div class="btc-amount-space">
-                                            <div>BTC amount:<span id="total-btc-to-send">~0.00046847</span></div>
-                                            <div class="copy"></div>
-                                        </div>
-                                        <div class="btc-amount-space">
-                                            <div>USD amount:<span id="total-btc-to-send">12.72</span></div>
-                                            <div class="copy"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="btc-bottom">
-                                        <div>
-                                            <p class="white bold">Or scan this QR code to execute the transaction</p>
-                                            <p class="text-small"><i>Hypha will be transferred as soon as there is more than 1 confirmation on your Bitcoin transaction</i></p>
-                                        </div>
-                                        <div id="btc-qr-code">
-                                            <img src="img/qr-code.png" />
+                                    <p class="text-big white">Choose Amount</p>
+                                    <p class="text-small">Type in the amount of Hypha token you would like to buy.
+                                        The value of BTC and USD will dynamically be updated.</p>
+                                    <div class="input-amount">
+                                        <input id="hypha-amount-to-buy" placeholder="1,000.00">
+                                        <div id="converter">
+                                            <div class="conv-cript"><b><span id="selected-method">BTC</span></b> <span id="conversion-cripto"> 0.82557104</span></div>
+                                            <div class="conv-usd"><b>USD</b> <span id="conversion-usd"> 22,484.72</span></div>
                                         </div>
                                     </div>
 
                                     <div class="steps-action">
                                         <button class="button secondary" id="button-previous">Back</button>
+                                        <button class="button primary" id="button-next">Next</button>
                                     </div>
 
                                 </div>

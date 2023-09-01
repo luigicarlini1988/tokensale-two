@@ -335,7 +335,8 @@ input:focus::placeholder {
     object-fit: cover;
 }
 
-#payment-options {
+#payment-options,
+#token-type-options {
     margin-top:30px;
     display: flex;
     flex-direction: row;
@@ -383,11 +384,14 @@ input:focus::placeholder {
     width:48px;
 }
 
-#step-2 .top {
+#step-2 .top,
+#step-3 .top {
     padding-top:10px;
+    padding-bottom:30px;
 }
 
-#step-2 .bottom {
+#step-2 .bottom,
+#step-3 .bottom {
     padding-top:20px;
 }
 
@@ -444,7 +448,7 @@ input:focus::placeholder {
     margin-left: 10px;
 }
 
-#step-3 .bottom {
+#step-4 .bottom {
     padding-top:30px;
 }
 
@@ -453,20 +457,20 @@ input:focus::placeholder {
     font-size:22px;
 }
 
-#step-4 #selected-method {
+#step-5 #selected-method {
     color:var(--white);
 }
 
-#step-4 h2 {
+#step-5 h2 {
     margin-bottom:20px;
     margin-top:10px;
 }
 
-#step-4 .top {
+#step-5 .top {
     padding-bottom:25px;
 }
 
-#step-4 .bottom {
+#step-5 .bottom {
     padding-top:25px;
 }
 
