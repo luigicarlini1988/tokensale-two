@@ -583,12 +583,13 @@ input:focus::placeholder {
 }
 
 .explainer {
-   position:absolute;
-   text-align:center;
-   font-size:12px;
-   font-style: italic;
-   width:100%;
-   bottom:-50px;
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    width: 100%;
+    bottom: 0;
+    margin-top: 40px;
 }
 
 .error-message {
