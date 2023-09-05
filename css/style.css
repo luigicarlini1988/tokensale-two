@@ -273,7 +273,7 @@ p {
 }
 
 
-#step-1 .text-small {
+.account-vaidation .text-small {
     margin-top:20px;
 }
 
@@ -389,14 +389,14 @@ input:focus::placeholder {
     width:48px;
 }
 
-#step-2 .top,
-#step-3 .top {
+.token-purchase-selection .top,
+.token-options-to-buy .top {
     padding-top:10px;
     padding-bottom:30px;
 }
 
-#step-2 .bottom,
-#step-3 .bottom {
+.token-purchase-selection .bottom,
+.token-options-to-buy .bottom {
     padding-top:20px;
 }
 
@@ -458,7 +458,7 @@ input:focus::placeholder {
     margin-left: 10px;
 }
 
-#step-4 .bottom {
+.amount-to-choose .bottom {
     padding-top:30px;
 }
 
@@ -467,20 +467,20 @@ input:focus::placeholder {
     font-size:22px;
 }
 
-#step-5 #selected-method {
+.final-step #selected-method {
     color:var(--white);
 }
 
-#step-5 h2 {
+.final-step h2 {
     margin-bottom:20px;
     margin-top:10px;
 }
 
-#step-5 .top {
+.final-step .top {
     padding-bottom:25px;
 }
 
-#step-5 .bottom {
+.final-step .bottom {
     padding-top:25px;
 }
 
@@ -618,7 +618,8 @@ input:focus::placeholder {
         font-size:36px;
     }
 
-    #step-2 .top, #step-3 .top {
+    .token-purchase-selection .top, 
+    .token-options-to-buy .top {
         padding-bottom:20px;
     }
 
